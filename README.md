@@ -31,3 +31,16 @@ We tune hyper-parameters according to the following table.
 | dim_task        | the dimensions of prediction head           | \{32, 64\}                            |
 | beta            | weight of fused Gromov-Wasserstein distance | \{0.1, 0.3, 0.5, 0.7, 0.9\}           |
 | lambda          | weight proposed OT-based regularization     | \{0.0001, 0.001, 0.01, 0.1, 1\}       |
+
+## 4. Paper
+arXiv Paper: http://arxiv.org/abs/2405.15505
+
+Citation:
+> @misc{yang2024revisiting,
+      title={Revisiting Counterfactual Regression through the Lens of Gromov-Wasserstein Information Bottleneck}, 
+      author={Hao Yang and Zexu Sun and Hongteng Xu and Xu Chen},
+      year={2024},
+      eprint={2405.15505},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
